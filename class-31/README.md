@@ -1,8 +1,10 @@
-# Python in Cybersecurity
+# AppSec
 
 ## Overview
 
-Widely adopted for its low learning curve and extensive library of tools, Python is the most popular language in security. Today you will practice your Python skills.
+Application security, or AppSec, encompasses everything software security. Decisions made during the software development lifecycle (SDLC) can dramatically impact the level of security present in the released application.
+
+Today you'll use one of the many open source/free tools available in the security community to evaluate your ToE for vulnerabilities/security issues.
 
 ## Learning Objectives
 
@@ -10,27 +12,22 @@ Widely adopted for its low learning curve and extensive library of tools, Python
 
 #### Describe and Define
 
-- Exploit development
-- Networking
-- Debugging
-- Encryption/Decryption
-- Reverse engineering
-- Fuzzing
-- Web
-- Forensics
-- Malware analysis
+- AppSec
+- DIAST
+- IAST
+- SAST
 
 #### Execute
 
-- Utilize Python for security purposes.
+- Perform app testing using DIAST, IAST, or SAST tooling.
 
 ## Today's Outline
 
 - Course overview
-- Review: Class 01 Lab
-- Review: Class 01 Ops Challenge
-- Demo: Class 02 Ops Challenge
-- Discussion: Python in Cybersecurity
-- Lecture: Python in Cybersecurity
-- Demo: Python in Cybersecurity
+- Review: Class 30 Lab
+- Review: Class 30 Ops Challenge
+- Demo: Class 31 Ops Challenge
+- Discussion: AppSec 
+- Lecture: AppSec
+- Demo: AppSec
 

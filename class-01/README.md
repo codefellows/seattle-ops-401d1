@@ -22,7 +22,7 @@ The Kali Linux distribution includes a plethora of offensive security software t
 - Exfiltrate and decrypt the administrator password of a targeted victim PC.
 - Summarize an attempted exploit and propose preventative measures to the targeted systems owners.
 
-## Today's Agenda
+## Today's Outline
 
 - Welcome Presentation & Introductions
 - Course Overview

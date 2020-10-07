@@ -1,35 +1,24 @@
-# Ops Challenge - Uptime Sensor Tool Part 1 of 2
+# Ops Challenge - Uptime Sensor Tool Part 2 of 2
 
 ## Demo Code
 
 The demo code below introduces concepts necessary to complete the challenge.
 
-This example is from [Sending emails using Python's smtplib](https://docs.python.org/3/library/email.examples.html). 
-
 ```python
-# Import smtplib for the actual sending function
+
+# This script is optimized for Gmail. Yours may vary for this assignment. Replace values as indicated for the script to function.
+
 import smtplib
+server = smtplib.SMTP_SSL(MAILSERVER, PORTNUMBER) # Replace MAILSERVER and PORTNUMBER with the correct values
+server.ehlo()
 
-# Import the email modules we'll need
-from email.message import EmailMessage
+# Next, log in to the server
+server.login(SENDEREMAILADDRESS, PASSWORD) # Replace SENDEREMAILADDRESS and PASSWORD with the correct values
 
-# Open the plain text file whose name is in textfile for reading.
-with open(textfile) as fp:
-    # Create a text/plain message
-    msg = EmailMessage()
-    msg.set_content(fp.read())
+# Send the mail
+msg = "Hello!" # The /n separates the message from the headers
+server.sendmail(SENDEREMAILADDRESS, DESTINATIONEMAILADDRESS, msg) # Replace SENDEREMAILADDRESS and DESTINATIONEMAILADDRESS with the correct values
+server.quit()
 
-# me == the sender's email address
-# you == the recipient's email address
-msg['Subject'] = f'The contents of {textfile}'
-msg['From'] = me
-msg['To'] = you
-
-# Send the message via our own SMTP server.
-s = smtplib.SMTP('localhost')
-s.send_message(msg)
-s.quit()
 ```
-"DEMO.md" 45L, 1015C                                                                                                                                                 1,1           Top
-
 

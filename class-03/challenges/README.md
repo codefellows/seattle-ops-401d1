@@ -9,6 +9,7 @@ Today you will finish writing an uptime sensor tool that checks systems are resp
 ## Resources
 
 - [Sending emails using Python's smtplib](https://docs.python.org/3/library/email.examples.html)
+- [How to Send Emails with Gmail using Python](https://stackabuse.com/how-to-send-emails-with-gmail-using-python/)
 
 ## Demonstration
 

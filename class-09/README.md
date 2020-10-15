@@ -36,3 +36,35 @@ Today’s security professional, particularly at the entry level, should have a 
 - Lecture: Public Key Infrastructure (PKI)
 - Demo: Public Key Infrastructure (PKI)
 
+## Resources
+
+### Downloads
+
+- [MSEdge on Win10 (x64) Stable 1809 OVA Download](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+- [Gpg4win 3.1.13 Download](https://www.gpg4win.org)
+
+### References
+
+- [OpenPGP](https://www.openpgp.org/)
+- [GnuPG](https://gnupg.org/)
+- [Real World OpenSSL](https://prefetch.net/articles/realworldssl.html)
+- [OpenSSL Certificate Tutorial](https://pki-tutorial.readthedocs.io/en/latest/)
+- [Testing HTTPS with OpenSSL](https://blog.yimingliu.com/2008/02/04/testing-https-with-openssl/)
+- [Introduction to AWS Key Management Service](https://amazon.qwiklabs.com/focuses/10388?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&amp;parent=catalog&amp;search_id=5201321)
+
+## Feature Tasks and Requirements
+
+Your instructor will assign you a lab partner to help you complete Part 1 and Part 2 of this lab.
+
+### Part 1: Staging
+
+You will need two environments for today's lab:
+- Windows 10
+- Ubuntu Linux
+
+First prepare the Windows 10 environment.
+- Download and install [Gpg4win 3.1.13](https://www.gpg4win.org).
+
+Next prepare the Ubuntu Linux environment.
+- Download and install `gnupg2` and `gpa`.
+

@@ -1,14 +1,14 @@
-# Ops Challenge: Brute Force Attacks 
+# Ops Challenge: Brute Force with Kali Linux 
 
 ## Overview
 
-Many attack techniques exist to circumvent a security defense, such as password-based authentication. One of the classic attack techniques is something called "brute force," where the attack tool repeatedly attempts to authenticate until successful.
+A classic cyber attack used against authentication mechanisms is brute force, which consists of repeatedly attempting a new login credential until you succeed. In March 2020, it was estimated there were shy of one million* brute force attacks taking place per day against RDP authentication controls.
 
-Today you will practice compromising a SSH server using brute force tools.
+Today you will experiment with Kali Linux attack tools to practice brute force against SSH authentication.
 
 ## Resources
+
 - [Brute-force attacks with Kali Linux](https://medium.com/@Pentestit_ru/brute-force-attacks-using-kali-linux-49e57bb89259)
-- [How To Gain SSH Access to Servers by Brute-Forcing Credentials](https://null-byte.wonderhowto.com/how-to/gain-ssh-access-servers-by-brute-forcing-credentials-0194263/)
 
 ## Demonstration
 

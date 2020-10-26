@@ -1,41 +1,39 @@
-# Ops Challenge - Automated Brute Force Wordlist Attack Tool Part 1 of 3
-
-## Demo Code
-
-The demo code below introduces concepts necessary to complete the challenge.
-
-This example code uses PyAutoGUI to cycle through the alphabet.
-
-```python
-
-import itertools
-import time
-import pyautogui
-
-Alphabet = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-_.")
-CharLength = 1
-username = "youremail@domain.com"
-
-for Index in range(25):
-    passwords = (itertools.product(Alphabet, repeat = Index))
-	for i in passwords:
-        i = str(i)
-        i = i.replace("[", "")
-        i = i.replace("]", "")
-        i = i.replace("'", "")
-        i = i.replace(" ", "")
-        i = i.replace(",", "")
-        i = i.replace("(", "")
-        i = i.replace(")", "")
-        pyautogui.typewrite(username)
-        pyautogui.keyDown("enter")
-        pyautogui.keyUp("enter")
-        pyautogui.typewrite(i)
-        pyautogui.keyDown("enter")
-        pyautogui.keyUp("enter")
-    Index += 1
-
-```
-"DEMO.md" 45L, 1015C                                                                                                                                                 1,1           Top
-
-
+# Python program to demonstrate 
+# iterator module 
+  
+  
+import operator 
+import time 
+  
+# Defining lists 
+L1 = [1, 2, 3] 
+L2 = [2, 3, 4] 
+  
+# Starting time before map  
+# function 
+t1 = time.time() 
+  
+# Calculating result 
+a, b, c = map(operator.mul, L1, L2) 
+  
+# Ending time after map 
+# function 
+t2 = time.time() 
+  
+# Time taken by map function 
+print("Result:", a, b, c) 
+print("Time taken by map function: %.6f" %(t2 - t1)) 
+  
+# Starting time before naive  
+# method 
+t1 = time.time() 
+  
+# Calculating result usinf for loop 
+print("Result:", end = " ") 
+for i in range(3): 
+    print(L1[i] * L2[i], end = " ") 
+      
+# Ending time after naive 
+# method 
+t2 = time.time() 
+print("\nTime taken by for loop: %.6f" %(t2 - t1)) 

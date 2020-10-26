@@ -147,6 +147,39 @@ Include the below components in your live presentation (in this slide sequence):
 
 > Tip: Slides should be composed of talking points, not lines to be read verbatim! Avoid the "teleprompter" effect and aim for a natural, extemporaneous presentation on demo day.
 
+### Proposal Deliverable 
+
+The following deliverables will be due on demo day.
+
+Required deliverables:
+- PD01: Case Study Overview
+  - Incident narrative
+  - Why your team selected this incident
+  - Resources/assets as part of evaluated target
+- PD02: Security Assesment Report (SAR) as PDF document
+  - Include all solutions.
+- PD03: STRIDE/DREAD Analysis
+- PD04: Threat Model Technical Report
+  - Thoroughly describe the threat model and adversary behavior in a dedicated document.
+- PD05: Proposed standard operating procedure (SOP) for your NOC or SOC team to better handle the described threat in the future. 
+  - Follow NIST Risk Management Framework workflow in designing the SOP.
+- PD06: Github Repo Link to individual Python-based automation tool (one per team member)
+
+### Individual Contributions
+
+Individual team members must track their project contributions. Each individual should carefully document contributions to the following:
+- Python automation script exclusively written by the individual
+- Equal share of project documentation tasks 
+  - Reporting
+  - Slide creation
+  - Threat analysis and modeling
+- Equal share of technical attack simulation construction and operation
+  - Staging the ToE
+  - Constructing, automating or performing the attack TTP
+  - Evaluating ToE response to attack and implementing technical solution
+    - Python automation
+    - Encryption solution
+
 ### Resources
 
 Reference the below resources for developing your security assessment report.
@@ -169,19 +202,4 @@ Reference the below resources for developing your NOC/SOC SOP.
 - [Guideline to Develop and Maintain the Security Operation Center (SOC)](https://resources.infosecinstitute.com/guideline-to-develop-and-maintain-the-security-operation-center-soc/)
 - [NIST Risk Management Framework Overview](https://www.nist.gov/system/files/documents/2018/03/28/vickie_nist_risk_management_framework_overview-hpc.pdf)
 
-### Proposal Deliverable 
-
-Required deliverables:
-- PD01: Case Study Overview
-  - Incident narrative
-  - Why your team selected this incident
-  - Resources/assets as part of evaluated target
-- PD02: Security Assesment Report (SAR) as PDF document
-  - Include all solutions.
-- PD03: STRIDE/DREAD Analysis
-- PD04: Threat Model Technical Report
-  - Thoroughly describe the threat model and adversary behavior in a dedicated document.
-- PD05: Proposed standard operating procedure (SOP) for your NOC or SOC team to better handle the described threat in the future. 
-  - Follow NIST Risk Management Framework workflow in designing the SOP.
-- PD06: Github Repo Link to individual Python-based automation tool (one per team member)
 

@@ -2,8 +2,7 @@
 
 ## Overview
 
-Web application security expertise is in high demand as companies release increasingly powerful web applications. Today you will use OWASP and DREAD to evaluate a web application for
-security vulnerabilities.
+Web application security expertise is in high demand as companies release increasingly powerful web applications. The professional security organization, OWASP, is known for its lists of the most common web application vulnerabilities. The ability to assess a web app for common security issues and communicate the risks associated with these issues using industry standard models such as DREAD will serve you well throughout your career, as you evaluate threats to organizational systems and recommend appropriate defenses.
 
 ## Learning Objectives
 
@@ -31,4 +30,9 @@ security vulnerabilities.
 - Discussion: Web Application Threat Modeling with OWASP, DREAD
 - Lecture: Web Application Threat Modeling with OWASP, DREAD
 - Demo: Web Application Threat Modeling with OWASP, DREAD
+
+## Resources
+
+- [OWASP Vulnerable Web Application](https://github.com/OWASP/Vulnerable-Web-Application){:target="_blank"}
+
 

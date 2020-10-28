@@ -33,6 +33,7 @@ Web application security expertise is in high demand as companies release increa
 
 ## Resources
 
-- [OWASP Vulnerable Web Application](https://github.com/OWASP/Vulnerable-Web-Application){:target="_blank"}
+- [OWASP WebGoat](https://github.com/WebGoat/WebGoat){:target="_blank"}
+- Optional old edition of OWASP WebGoat: [OWASP Broken Web Apps 1.2 OVA 2.43GB Download](https://sourceforge.net/projects/owaspbwa/files/1.2/OWASP_Broken_Web_Apps_VM_1.2.ova/download){:target="_blank"}
 
 

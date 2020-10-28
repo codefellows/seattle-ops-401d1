@@ -8,28 +8,17 @@ This example code is from [How to Brute Force ZIP File Passwords in Python](http
 
 ```python
 
-import zipfile
-from tqdm import tqdm
+# Demo Class 18
+#
+# The Python "zipfile" library at https://docs.python.org/3/library/zipfile.html allows us to interact with files using the ZIP archive and compression standard. 
 
-# the password list path you want to use, must be available in the current directory
+from zipfile import ZipFile
 
-wordlist = "rockyou.txt"
+zip_file = ### Your password protected zip file ###
+password = ### Password to guess ###
 
-# the zip file you want to crack its password
-
-zip_file = "secret.zip"
-
-# initialize the Zip File object
-
-zip_file = zipfile.ZipFile(zip_file)
-
-# count the number of words in this wordlist
-
-n_words = len(list(open(wordlist, "rb")))
-
-# print the total number of passwords
-
-print("Total passwords to test:", n_words)
+with ZipFile(zip_file) as zf:
+  zf.extractall(pwd=bytes(password,'utf-8'))
 
 ```
 "DEMO.md" 45L, 1015C                                                                                                                                                 1,1           Top

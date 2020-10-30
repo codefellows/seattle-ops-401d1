@@ -9,7 +9,6 @@ Today's class will focus on career development. After the workshop, your instruc
 - How to setup and access HackTheBox
 - Review: Term 1
 - Looking ahead: Term 2
-  - AMA
   - Tools used in the modern SOC team
 - Midterm Project Kickoff
 

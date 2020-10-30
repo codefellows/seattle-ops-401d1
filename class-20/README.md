@@ -1,4 +1,4 @@
-# Career Development Workshop, Midterm Project Kickoff
+# Review, HTB Workshop, and Midterm Project Kickoff
 
 Today's class will focus on career development. After the workshop, your instructor will introduce the midterm project.
 

@@ -123,21 +123,17 @@ Include the below components in your live presentation (in this slide sequence):
   - Team Introduction
     - Individual introductions
   - Case study introduction
-    - Target of Evaluation (ToE) introduction
-    - ToE diagram of components
-    - Discussion of security assessment objectives and deliverables
+    - Who, What, When, Where, Why   
 - **Problem**
-  - Introduction of a single threat to the target system
+  - Introduce the threat actor TTP you are demonstrating today
+  - Data flow diagram (DFD) representing your system
   - Threat mapped to the MITRE ATT&CK framework and Atomic Red Team
-  - Threat analyzed using the Lockheed Martin Cyber Kill Chain
-  - Threat modelled into a data flow diagram (DFD) of STRIDE and DREAD
-  - Example tabletop scenario including likely human behaviors of involved parties
   - Qualitative risk analysis breakdown
   - Technical demonstration of the attack being executed
 - **Proposed solutions**
   - Technical demonstration of a network monitoring system detecting the threat
     - Examples include DLP, IDS/IPS, ICMP-based monitoring
-  - Technical demonstration of a Python-scripted security solution 
+  - Technical demonstration of a Python-scripted security solution or attack
     - Demonstrate protecting data against the threat, or automating the attack simulation of the threat itself (ref. Atomic Red Team)
   - Technical demonstration of an encryption solution to protect company data against the threat 
   - Discuss overall findings
@@ -160,6 +156,9 @@ Required deliverables:
   - Include all solutions.
 - PD03: STRIDE/DREAD Analysis
 - PD04: Threat Model Technical Report
+  - Threat analyzed using the Lockheed Martin Cyber Kill Chain
+  - Threat modelled into a data flow diagram (DFD) of STRIDE and DREAD
+  - Example tabletop scenario including likely human behaviors of involved parties
   - Thoroughly describe the threat model and adversary behavior in a dedicated document.
 - PD05: Proposed standard operating procedure (SOP) for your NOC or SOC team to better handle the described threat in the future. 
   - Follow NIST Risk Management Framework workflow in designing the SOP.

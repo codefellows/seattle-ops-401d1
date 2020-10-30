@@ -1,16 +1,18 @@
 # Review, HTB Workshop, and Midterm Project Kickoff
 
-Today's class will focus on career development. After the workshop, your instructor will introduce the midterm project.
+Today we'll wrapup term 1 and begin the transition to midterm project week.
 
 ## Today's Outline
 
 - Course Overview
 - Review: Class 19 Lab
 - How to setup and access HackTheBox
-- Review: Term 1
+- [Review: Term 1](REVIEW.md)
 - Looking ahead: Term 2
   - Tools used in the modern SOC team
 - Midterm Project Kickoff
+
+## Project Week Milestones
 
 ### Class 20: Project Planning
 

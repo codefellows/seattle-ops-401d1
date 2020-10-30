@@ -4,11 +4,14 @@ Today's class will focus on career development. After the workshop, your instruc
 
 ## Today's Outline
 
-- Career Development Workshop
 - Course Overview
 - Review: Class 19 Lab
-- Review: Class 19 Ops Challenge
-- Midterm Project
+- How to setup and access HackTheBox
+- Review: Term 1
+- Looking ahead: Term 2
+  - AMA
+  - Tools used in the modern SOC team
+- Midterm Project Kickoff
 
 ### Class 20: Project Planning
 

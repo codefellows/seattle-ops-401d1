@@ -126,17 +126,16 @@ Include the below components in your live presentation (in this slide sequence):
     - Who, What, When, Where, Why   
 - **Problem**
   - Data flow diagram (DFD) representing your system
-  - Introduce the threat actor TTP you are demonstrating today
-  - Threat mapped to the MITRE ATT&CK framework and Atomic Red Team
+  - Introduce the threat actor's TTP you are demonstrating today
   - Qualitative risk analysis breakdown
-  - Technical demonstration of the attack being executed
+  - Threat mapped to the MITRE ATT&CK framework and Atomic Red Team
+  - Technical demonstration of the attack being successfully executed
 - **Proposed solutions**
   - Technical demonstration of a network monitoring system detecting the threat
     - Examples include DLP, IDS/IPS, ICMP-based monitoring
-  - Technical demonstration of a Python-scripted security solution or attack
+    - Defensive solution must utilize encryption in some form as part of the demonstration
+  - A Python-scripted security solution or attack must be included in the demonstration
     - Demonstrate protecting data against the threat, or automating the attack simulation of the threat itself (ref. Atomic Red Team)
-  - Technical demonstration of an encryption solution to protect company data against the threat 
-  - Discuss overall findings
   - Summarize operational changes to mitigate threat
 - Project challenges
 - Q&A

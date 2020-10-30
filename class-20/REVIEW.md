@@ -27,5 +27,9 @@ Use these review questions to help you retain and reinforce content covered in t
 - What is risk? How can we calculate and define risk?
 - Why do we care about threats?
 - What is threat modelling?
+- The SOC team wants to proactively improve its defenses against specific threats. How would you recommend doing so?
+- What is a TTP?
+- What is a cyber kill chain?
+- Why are STRIDE and DREAD often presented in tandem?
 - Why do we care about automation in security?
 - What languages are security tools written in?

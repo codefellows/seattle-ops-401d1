@@ -125,8 +125,8 @@ Include the below components in your live presentation (in this slide sequence):
   - Case study introduction
     - Who, What, When, Where, Why   
 - **Problem**
-  - Introduce the threat actor TTP you are demonstrating today
   - Data flow diagram (DFD) representing your system
+  - Introduce the threat actor TTP you are demonstrating today
   - Threat mapped to the MITRE ATT&CK framework and Atomic Red Team
   - Qualitative risk analysis breakdown
   - Technical demonstration of the attack being executed

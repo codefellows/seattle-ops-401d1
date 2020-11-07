@@ -1,8 +1,10 @@
-# Digital Forensics
+# Lab: Threat Hunting with Security Onion
 
 ## Overview
 
-This is stage four of the IR lifecycle where we slow things down and deeply scrutinize what just took place using various analytical approaches including forensics investigations. Organizations commonly perform malware analysis at this stage. Today you will learn about forensics and perform analysis using tools like Autopsy.
+Many organizations now employ security teams that proactively search for cyber threats on the company network. We can use the capabilities of Security Onion to actively hunt for threats in our systems. 
+
+Today you will practice some threat hunting operations with the Security Onion toolset.
 
 ## Learning Objectives
 
@@ -10,22 +12,27 @@ This is stage four of the IR lifecycle where we slow things down and deeply scru
 
 #### Describe and Define
 
-- Computer forensics
-- Malware analysis
-- Forensic investigation
+- Threat hunting
+- Zeek
+- Rita
+- Beacons
 
 #### Execute
 
-- Perform a computer forensics investigation
-- Perform a data recovery operation using forensics tools
+- Use Wireshark, Zeek, and Rita to perform threat hunting operations.
 
 ## Today's Outline
 
 - Course overview
-- Review: Class 28 Lab
-- Review: Class 28 Ops Challenge
-- Demo: Class 29 Ops Challenge
-- Discussion: Digital Forensics
-- Lecture: Digital Forensics
-- Demo: Digital Forensics
+- Review: Class 27 Lab
+- Review: Class 27 Ops Challenge
+- Demo: Class 28 Ops Challenge
+- Discussion: Threat Hunting with Security Onion
+- Lecture: Threat Hunting with Security Onion
+- Demo: Threat Hunting with Security Onion
+
+## Resources
+
+- [Active Countermeasures Threat Hunting Labs](https://activecm.github.io/threat-hunting-labs/){:target="_blank"}
+
 

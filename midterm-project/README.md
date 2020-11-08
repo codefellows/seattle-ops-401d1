@@ -125,17 +125,18 @@ Include the below components in your live presentation (in this slide sequence):
   - Case study introduction
     - Who, What, When, Where, Why   
 - **Problem**
+  - Introduce the threat actor TTP you are demonstrating today
   - Data flow diagram (DFD) representing your system
-  - Introduce the threat actor's TTP you are demonstrating today
-  - Qualitative risk analysis breakdown
   - Threat mapped to the MITRE ATT&CK framework and Atomic Red Team
-  - Technical demonstration of the attack being successfully executed
+  - Qualitative risk analysis breakdown
+  - Technical demonstration of the attack being executed
 - **Proposed solutions**
   - Technical demonstration of a network monitoring system detecting the threat
     - Examples include DLP, IDS/IPS, ICMP-based monitoring
-    - Defensive solution must utilize encryption in some form as part of the demonstration
-  - A Python-scripted security solution or attack must be included in the demonstration
+  - Technical demonstration of a Python-scripted security solution or attack
     - Demonstrate protecting data against the threat, or automating the attack simulation of the threat itself (ref. Atomic Red Team)
+  - Technical demonstration of an encryption solution to protect company data against the threat 
+  - Discuss overall findings
   - Summarize operational changes to mitigate threat
 - Project challenges
 - Q&A
@@ -165,18 +166,23 @@ Required deliverables:
 
 ### Individual Contributions
 
-Individual team members must track their project contributions. Each individual should carefully document contributions to the following:
+Individual team members must track their project contributions. Each individual should carefully document contributions to the following, and include this in your Canvas "Individual Submission" assignment.
 - Python automation script exclusively written by the individual
-- Equal share of project documentation tasks 
-  - Reporting
-  - Slide creation
-  - Threat analysis and modeling
-- Equal share of technical attack simulation construction and operation
+  - The script should fit the project scenario but differ in some meaningful fashion from the scripts we made in class. For example, different types of target for the attack, or different types of methods used on the target.
+  - It is OK to include multiple scripts in the demo. 
+  - The script should adhere to commenting norms established in class, such as creator, date, description, etc.
+  - Explain in script comments how your script differs from in-class examples and Ops Challenges.
+  - Explain in script comments how the script fits into the overall project scenario.
+- Demonstrate you completed an equal share of project documentation tasks. 
+  - Creation and editing of reporting deliverables
+  - Creation and editing of slide decks
+  - Creation and editing of threat analysis and modeling
+- Demonstrate you contributed an equal share of technical attack simulation construction and operation.
   - Staging the ToE
   - Constructing, automating or performing the attack TTP
   - Evaluating ToE response to attack and implementing technical solution
-    - Python automation
-    - Encryption solution
+    - Python-based automation script
+    - Defensive encryption solution
 
 ### Resources
 

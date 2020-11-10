@@ -1,8 +1,8 @@
-# Cloud Incident Response in AWS EC2
+# ELK Stack Operations with Security Onion 
 
 ## Overview
 
-Performing incident response in the cloud allows us to use some new tools. One such tool is AWS CloudTrail. Today you'll perform some incident response operations in the AWS cloud.
+The Kibana dashboard is a powerful visual tool for analyzing events and behaviors in a sprawling ecosystem. Combined with Logstash and Elasticsearch, we have access to a very powerful intelligence platform in the form of Security Onion.
 
 ## Learning Objectives
 
@@ -10,21 +10,27 @@ Performing incident response in the cloud allows us to use some new tools. One s
 
 #### Describe and Define
 
-- Stages of incident response (IR)
-- Cloud IR vs LAN IR
-- EC2 response plan
+- Winlogbeats
+- Kibana
+- Ingestion
 
 #### Execute
 
-- Operate cloud IR tools 
+- Analyze data on Kibana
+- Deploy Winlogbeats to capture event logs from a Windows system
 
 ## Today's Outline
 
 - Course overview
-- Review: Class 27 Lab
-- Review: Class 27 Ops Challenge
-- Demo: Class 28 Ops Challenge
-- Discussion: Cloud Incident Response in AWS EC2
-- Lecture: Cloud Incident Response in AWS EC2
-- Demo: Cloud Incident Response in AWS EC2
+- Review: Class 26 Lab
+- Review: Class 26 Ops Challenge
+- Demo: Class 27 Ops Challenge
+- Discussion: ELK Stack Operations with Security Onion 
+- Lecture: ELK Stack Operations with Security Onion 
+- Demo: ELK Stack Operations with Security Onion 
+
+## Resources
+
+- [Security Onion 2.3 OVA 16GB Download]()
+
 

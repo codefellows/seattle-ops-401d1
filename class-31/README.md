@@ -1,8 +1,8 @@
-# Automated AppSec with OWASP Zap
+# Malware Detection with YARA Rules
 
 ## Overview
 
-Application security, or AppSec, encompasses everything software security. Decisions made during the software development lifecycle (SDLC) can dramatically impact the level of security present in the released application. To test web application security, we can use tools like OWASP ZAP to automate the attack procedure.
+Defenders should be proficient with Virustotal's YARA engine, a powerful platform for devising custom signature-based detection rules for malware. Antimalware applications like ClamAV utilize the YARA engine. By putting these tools together, we can achieve new heights in security automation.
 
 ## Learning Objectives
 
@@ -10,30 +10,34 @@ Application security, or AppSec, encompasses everything software security. Decis
 
 #### Describe and Define
 
-- OWASP ZAP
-- AppSec
-- DIAST
-- IAST
-- SAST
+- ClamAV
+- Extensibility
+- Virustotal
+- YARA
+- YARA rule
 
 #### Execute
 
-- Perform web application security testing with OWASP ZAP.
+- Write and test a YARA rule
 
 ## Today's Outline
 
 - Course overview
-- Review: Class 30 Lab
-- Review: Class 30 Ops Challenge
-- Demo: Class 31 Ops Challenge
-- Discussion: Automated AppSec with OWASP Zap
-- Lecture: Automated AppSec with OWASP Zap
-- Demo: Automated AppSec with OWASP Zap
+- Review: Class 31 Lab
+- Review: Class 31 Ops Challenge
+- Demo: Class 30 Ops Challenge
+- Discussion: Malware Detection with YARA Rules 
+- Lecture: Malware Detection with YARA Rules
+- Demo: Malware Detection with YARA Rules
 
 ## Resources
 
-Download and import this OVA into Virtualbox (NAT Network) to be ready for today's lab.
+- FLARE VM (Windows 10) OVA Download
+- [FLARE VM Github Repo](https://github.com/fireeye/flare-vm)
+- [Cmder](https://cmder.net/)
+- [ClamAV](http://www.clamav.net/)
+- [Using ClamAV On Windows](https://blog.didierstevens.com/2017/08/24/quickpost-using-clamav-on-windows/)
+- [Hunting with YARA rules and ClamAV](https://blog.nviso.eu/2017/02/14/hunting-with-yara-rules-and-clamav/)
 
-- [DVWA OVA Download](https://drive.google.com/file/d/1w5diYApaEdxukWwazDZPq5PnAr1E7QTq/view?usp=sharing)
 
-You will also need [Kali Linux](https://www.kali.org/downloads/) VM set to NAT Network with [OWASP Zed Attack Proxy](https://www.zaproxy.org/) installed.
+

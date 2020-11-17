@@ -14,7 +14,10 @@ Today you will download a set of data from a scenario and analyze the data to de
 
 #### Describe and Define
 
+- Malware analysis
 - Traffic analysis
+- IoC
+- Incident Report
 
 #### Execute
 

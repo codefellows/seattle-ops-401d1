@@ -18,13 +18,15 @@ Today you will download a set of data from a scenario and analyze the data to de
 
 #### Execute
 
-- Analyze network traffic to reconstruct a malware-related incident.
+- Analyze network traffic using Wireshark to reconstruct a malware-related incident.
 
 ## Today's Outline
 
 ## Resources
 
-- Evidence package download
-- FLARE VM on an isolated subnet
-
+This lab requires FLARE VM OVA imported to Virtualbox on an isolated subnet. Review the below resources to brush up on Wireshark in preparation for the lab assignment.
+- [Wireshark Tutorial: Changing Your Column Display](https://unit42.paloaltonetworks.com/unit42-customizing-wireshark-changing-column-display/)
+- [Wireshark Tutorial: Identifying Hosts and Users](https://unit42.paloaltonetworks.com/using-wireshark-identifying-hosts-and-users/)
+- [Wireshark Tutorial: Display Filter Expressions](https://unit42.paloaltonetworks.com/using-wireshark-display-filter-expressions/)
+- [Wireshark Tutorial: Exporting Objects from a Pcap](https://unit42.paloaltonetworks.com/using-wireshark-exporting-objects-from-a-pcap/)
 

@@ -1,8 +1,8 @@
-# Powershell in Cybersecurity 
+# Forensic Investigation with Autopsy 
 
 ## Overview
 
-Many modern APT actors will "live off the land" by using existing administrator tools such as Powershell. Awareness of such threats is valuable to defending against them. Today you will use offensive security tools coded in Powershell.
+Sometimes you'll be evaluating an incident that already occurred, and receive data samples to investigate. Tools like Autopsy can facilitate this process.
 
 ## Learning Objectives
 
@@ -10,14 +10,13 @@ Many modern APT actors will "live off the land" by using existing administrator 
 
 #### Describe and Define
 
-- Empire
-- PowerSploit
-- Metasploit
-- Invoke-Mimikatz
+- DD file
+- Autopsy
+- Forensic investigation
 
 #### Execute
 
-- Utilize Powershell-based security tools  
+- Identify key information in a given scenario from a piece of data evidence using Autopsy.
 
 ## Today's Outline
 
@@ -25,7 +24,12 @@ Many modern APT actors will "live off the land" by using existing administrator 
 - Review: Class 33 Lab
 - Review: Class 33 Ops Challenge
 - Demo: Class 34 Ops Challenge
-- Discussion: Powershell in Cybersecurity
-- Lecture: Powershell in Cybersecurity
-- Demo: Powershell in Cybersecurity
+- Discussion: Forensic Investigation with Autopsy
+- Lecture: Forensic Investigation with Autopsy
+- Demo: Forensic Investigation with Autopsy
+
+## Resources
+
+- [Autopsy Digital Forensics](https://www.autopsy.com/)
+
 

@@ -1,10 +1,12 @@
-# XSS, SQL Injection
+# Lab: Malware Traffic Analysis with Wireshark 
 
 ## Overview
 
-In the early days of computing, authentication systems were constructed without a serious concern for resilience to attack. Passwords were not held to a minimum standard of complexity, and user inputs in web forms were not validated to avoid attack techniques such as XSS and SQLi. Now, however, we have entire frameworks and toolkits available to us to ensure software application security (AppSec) meets modern expectations.
+Malware analysts use sandboxed lab environments to study malware behavior. You need not be a dedicated malware researcher to be tasked with the same; oftentimes post-incident activities necessitate an investigation activity in which you scrutize all minutiae of evidence in an effort to better prepare for next time.
 
-Today, you will practice XSS and SQLi to better understand some of the most common AppSec security concerns.
+> "In June 2017, there were 1,726 job postings for malware analysts for which only 52 candidates applied. This is because malware analysis is an arduous process, requiring a wealth of knowledge, a lot of patience, and, occasionally, disruptive thinking." -[Toolbox.com](https://www.toolbox.com/security/data-security/articles/what-is-malware-analysis-definition-types-stages-best-practices/)
+
+Today you will download a set of data from a scenario and analyze the data to determine what took place, and report your findings.
 
 ## Learning Objectives
 
@@ -12,21 +14,17 @@ Today, you will practice XSS and SQLi to better understand some of the most comm
 
 #### Describe and Define
 
-- XSS
-- SQLi
+- Traffic analysis
 
 #### Execute
 
-- Perform XSS and SQLi attacks.
-- Recommend countermeasures against XSS and SQLi attacks.
+- Analyze network traffic to reconstruct a malware-related incident.
 
 ## Today's Outline
 
-- Course overview
-- Review: Class 31 Lab
-- Review: Class 31 Ops Challenge
-- Demo: Class 32 Ops Challenge
-- Discussion: XSS, SQL Injection
-- Lecture: XSS, SQL Injection
-- Demo: XSS, SQL Injection
+## Resources
+
+- Evidence package download
+- FLARE VM on an isolated subnet
+
 

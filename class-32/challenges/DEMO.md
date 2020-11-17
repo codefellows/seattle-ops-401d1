@@ -6,7 +6,7 @@ The demo code below introduces concepts necessary to complete the challenge.
 
 ```python
 
-# Python rogram to find the SHA-1 message digest of a file
+# Python program to find the SHA-1 message digest of a file
 
 # importing the hashlib module
 import hashlib
@@ -34,6 +34,23 @@ def hash_file(filename):
 # substitute file name below as the parameter
 message = hash_file("track1.mp3")
 print(message)
+
+```
+
+This next demo code generate MD5 hash from a target file.
+
+```python
+
+# Python program to find MD5 hash value of a file
+import hashlib
+ 
+filename = input("Enter the file name: ")
+md5_hash = hashlib.md5()
+with open(filename,"rb") as f:
+    # Read and update hash in chunks of 4K
+    for byte_block in iter(lambda: f.read(4096),b""):
+        md5_hash.update(byte_block)
+    print(md5_hash.hexdigest())
 
 ```
 

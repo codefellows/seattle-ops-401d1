@@ -22,9 +22,8 @@ Ref. [DEMO.md](DEMO.md)
 
 ## Resources
 
-- [Getting Started with Virustotal API](https://developers.virustotal.com/reference#file-scan){:target="_blank"}
-- [VirusTotal API – Getting started with security automation](https://www.tines.io/blog/virustotal-api-security-automation){:target="_blank"}
-- [Video - Python: VirusTotal Lookup Script](Python: Virus Total Lookup Script)
+- [Getting Started with Virustotal API](https://developers.virustotal.com/reference#file-scan)
+- [VirusTotal API – Getting started with security automation](https://www.tines.io/blog/virustotal-api-security-automation)
 - [Virustotal Search Github Repo](https://github.com/eduardxyz/virustotal-search)
 
 

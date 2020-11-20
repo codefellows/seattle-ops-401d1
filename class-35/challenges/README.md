@@ -1,12 +1,14 @@
-# Ops Challenge: Web Application Fingerprinting Tools
+# Ops Challenge: Web Vulnerability Scanning with Nmap 
 
 ## Overview
 
-Used in the information gathering phase of ethical hacking, web application fingerprinting identifies application and software stacks running on the target HTTP server.
+As security professionals we are sometimes called upon to evaluate web applications for vulnerabilities. In fact, many companies have "bug bounty" programs to encourage ethical hackers to find vulnerabilities in their applications by rewarding them with monetary payouts for significant findings. How are vulnerabilities discovered? This will be the topic in the coming module.
 
 ## Resources
 
-- [Web Application Fingerprinting](https://anantshri.info/articles/web_app_finger_printing.html#methods)
+- [Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/){:target="_blank"}
+- [http-enum NSE Script](https://vulners.com/nmap/NMAP:HTTP-ENUM.NSE){:target="_blank"}
+- [Get Started Writing Your Own NSE Scripts for Nmap](https://null-byte.wonderhowto.com/how-to/get-started-writing-your-own-nse-scripts-for-nmap-0187403/){:target="_blank"}
 
 ## Demonstration
 

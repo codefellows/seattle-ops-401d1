@@ -1,8 +1,10 @@
-# Web App Vulnerability Scanning
+# XSS with w3af, DVWA
 
 ## Overview
 
-Web application vulnerabilty analysis can be automated using various open source scanning tools. Today you will perform automated vulnerability scans against a web app using Kali-native tools Vega and W3AF, then report on your findings by associating them with known catalogued vulnerabilities using databases such as the CVE and CVSS.
+XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites. The Web Security Dojo OVA allows us to study XSS in action, then learn how web application vulnerabilty analysis can be automated using the open source scanning tool, w3af, to detect vulnerabilities like XSS.
+
+Today you will practice the XSS (Reflected) lab in DVWA, then use w3af to scan a separate web app for vulnerabilities and document them.
 
 ## Learning Objectives
 
@@ -10,17 +12,17 @@ Web application vulnerabilty analysis can be automated using various open source
 
 #### Describe and Define
 
-- OWASP top ten
+- Banner grabbing
+- Netcat
+- XSS
+- Cookie
+- CVE
 - CVSS
-- CVE
-- NVD
-- NVT
-- CVE
 
 #### Execute
 
-- Perform automated web app vulnerability scanning using Nmap, Vega, and W3AF
-- Compose a vulnerability assessment report
+- Perform automated web app vulnerability scanning using W3AF
+- Interpret scanner output to docment discovered vulnerabilities
 
 ## Today's Outline
 
@@ -28,7 +30,14 @@ Web application vulnerabilty analysis can be automated using various open source
 - Review: Class 35 Lab
 - Review: Class 35 Ops Challenge
 - Demo: Class 36 Ops Challenge
-- Discussion: Web App Vulnerability Scanning
-- Lecture: Web App Vulnerability Scanning
-- Demo: Web App Vulnerability Scanning
+- Discussion: XSS with w3af, DVWA
+- Lecture: XSS with w3af, DVWA
+- Demo: XSS with w3af, DVWA
+
+## Resources
+
+- Web Security Dojo VM
+- [W3AF](https://w3af.org/){:target="_blank"}
+- [Tips for Creating a Strong Vulnerability Assessment Report](https://blog.rsisecurity.com/tips-for-creating-a-strong-vulnerability-assessment-report/){:target="_blank"}
+
 

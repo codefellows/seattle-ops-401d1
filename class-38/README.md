@@ -1,8 +1,10 @@
-# Vulnerability Scanning with Nessus
+# Attacking Juice Shop with Burp Suite 
 
 ## Overview
 
-Tenable Nessus is a big name in the vulnerability scanning space, and for good reason as this tool is quite robust and trusted by major enterprise security teams. Today you will load Tenable Nessus on Kali Linux and explore its capabilities.
+Burp Suite is a popular security tool in the web appsec space. Complete with a GUI and a paid Professional edition, Burp Suite is often the web security professional's tool of choice.
+
+Today you'll use Burp Suite Community Edition to probe a vulnerable web app, the OWASP Juice Shop.
 
 ## Learning Objectives
 
@@ -10,9 +12,13 @@ Tenable Nessus is a big name in the vulnerability scanning space, and for good r
 
 #### Describe and Define
 
-#### Execute
+- Burp Suite
+- Injection
+- Broken Authentication
+- Sensitive Data Exposure
+- Broken Access Control
 
-- Perform automated vulnerability scanning
+#### Execute
 
 ## Today's Outline
 
@@ -20,7 +26,13 @@ Tenable Nessus is a big name in the vulnerability scanning space, and for good r
 - Review: Class 01 Lab
 - Review: Class 01 Ops Challenge
 - Demo: Class 02 Ops Challenge
-- Discussion: Vulnerability Scanning with Nessus 
-- Lecture: Vulnerability Scanning with Nessus
-- Demo: Vulnerability Scanning with Nessus
+- Discussion: Attacking Juice Shop with Burp Suite  
+- Lecture: Attacking Juice Shop with Burp Suite 
+- Demo: Attacking Juice Shop with Burp Suite 
+
+## Resources
+
+- [TryHackMe OWASP Juice Shop Room](https://tryhackme.com/room/owaspjuiceshop){:target="_blank"}
+
+
 

@@ -1,9 +1,8 @@
-# Social Engineering 
+# SQLi with Burp Suite, Web Goat 
 
 ## Overview
 
-Social engineering is an especially effective way for a cyber attacker to circumvent advanced defenses. Today you will familiarize yourself with social engineering techniques by using
- the Social-Engineer Toolkit (SET).
+SQL injection is a prominent attack technique. By exploiting known deficiencies in web app code, an attacker can compromise the confidentiality of the attached database and manipulate the input to extract desirable information such as user names and passwords.
 
 ## Learning Objectives
 
@@ -11,17 +10,7 @@ Social engineering is an especially effective way for a cyber attacker to circum
 
 #### Describe and Define
 
-- Social engineering
-- Phishing
-- Pharming
-- Whaling
-- Spear Phishing
-- Vishing
-
 #### Execute
-
-- Create a fake website using the Social-Engineering Toolkit (SET)
-- Model a website redirect attack
 
 ## Today's Outline
 
@@ -29,7 +18,12 @@ Social engineering is an especially effective way for a cyber attacker to circum
 - Review: Class 38 Lab
 - Review: Class 38 Ops Challenge
 - Demo: Class 39 Ops Challenge
-- Discussion: Social Engineering
-- Lecture: Social Engineering
-- Demo: Social Engineering
+- Discussion: SQLi with Burp Suite, Web Goat 
+- Lecture: SQLi with Burp Suite, Web Goat 
+- Demo: SQLi with Burp Suite, Web Goat 
+
+## Resources
+
+- [Portswigger Academy](https://portswigger.net/web-security/all-labs){:target="_blank"}
+
 

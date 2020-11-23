@@ -1,8 +1,10 @@
-# Exploiting Web Apps with Burp Suite
+# Automated AppSec with OWASP Zap
 
 ## Overview
 
-Thinking like the attacker is essential to devising appropriate defenses. Today you will attack a web app and attempt to exploit common web vulnerabilities.
+Application security, or AppSec, encompasses everything software security. Decisions made during the software development lifecycle (SDLC) can dramatically impact the level of security present in the released application.
+
+Today you'll use one of the many open source/free tools available in the security community to evaluate your ToE for vulnerabilities/security issues.
 
 ## Learning Objectives
 
@@ -10,32 +12,23 @@ Thinking like the attacker is essential to devising appropriate defenses. Today 
 
 #### Describe and Define
 
-- SQL Injection
-- Cross-site scripting (XSS)
-- Cross-site request forgery (CSRF)
-- Clickjacking
-- DOM-based vulnerabilities
-- Cross-origin resource sharing (CORS)
-- Server-side request forgery (SSRF)
-- HTTP request smuggling
-- OS command injection
-- Server side template injection
-- Directory traversal
-- Access control vulnerabilities
-- Web cache
-- Web ARP poisoning
+- AppSec
+- DIAST
+- IAST
+- SAST
 
 #### Execute
 
-- Perform web application exploitations with Burp Suite
+- Perform appsec testing using OWASP Zap.
+- Document and report the findings of a vulnerability scan.
 
 ## Today's Outline
 
 - Course overview
-- Review: Class 36 Lab
-- Review: Class 36 Ops Challenge
-- Demo: Class 37 Ops Challenge
-- Discussion: Exploiting Web Apps with Burp Suite
-- Lecture: Exploiting Web Apps with Burp Suite
-- Demo: Exploiting Web Apps with Burp Suite
+- Review: Class 30 Lab
+- Review: Class 30 Ops Challenge
+- Demo: Class 31 Ops Challenge
+- Discussion: Automated AppSec with OWASP Zap 
+- Lecture: Automated AppSec with OWASP Zap
+- Demo: Automated AppSec with OWASP Zap
 

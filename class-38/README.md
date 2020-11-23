@@ -32,7 +32,7 @@ Today you'll use Burp Suite Community Edition to probe a vulnerable web app, the
 
 ## Resources
 
-- [TryHackMe OWASP Juice Shop Room](https://tryhackme.com/room/owaspjuiceshop){:target="_blank"}
+- [TryHackMe OWASP Juice Shop Room](https://tryhackme.com/room/owaspjuiceshop)
 
 
 

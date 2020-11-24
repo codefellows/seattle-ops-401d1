@@ -2,7 +2,7 @@
 
 ## Overview
 
-Application security, or AppSec, encompasses everything software security. Decisions made during the software development lifecycle (SDLC) can dramatically impact the level of security present in the released application.
+The Zed Attack Proxy (ZAP) is an open-source web app pentesting tool that can act as a powerful intermediary between your browser and the target web server.
 
 Today you'll use one of the many open source/free tools available in the security community to evaluate your ToE for vulnerabilities/security issues.
 
@@ -12,14 +12,20 @@ Today you'll use one of the many open source/free tools available in the securit
 
 #### Describe and Define
 
-- AppSec
-- DIAST
-- IAST
-- SAST
+- OWASP ZAP
+- Burp Suite
+- AJAX
+- Spider
+- WebSockets
 
 #### Execute
 
 - Perform appsec testing using OWASP Zap.
+  - Automated Scan
+  - Directory Bruteforce
+  - Authenticated Scan
+  - Login Page Bruteforce
+  - Install ZAP Extensions
 - Document and report the findings of a vulnerability scan.
 
 ## Today's Outline

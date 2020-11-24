@@ -1,10 +1,10 @@
-# Ops Challenge: Web Application Fingerprinting Part 2 of 3
+# Ops Challenge: Cookie Capture Capades
 
 ## Overview
 
-In the previous class, we performed web application fingerprinting. This is a useful intelligence gathering operation during the stages of ethical hacking.
+Cookies play a vital role in identifying the user of the web app.
 
-Since we know a little Python, we can create our own web application fingerprinting tool. Today, we'll add the capability to analyze cookies.
+Today you will capture a cookie and send it back out to the site in order to receive a valid response in HTTP text, all using Python's Requests module.
 
 ## Resources
 

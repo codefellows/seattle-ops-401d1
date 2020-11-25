@@ -1,15 +1,12 @@
-# Ops Challenge: Web Application Fingerprinting Part 3 of 3
+# Ops Challenge: XSS Vulnerability Detection with Python 
 
 ## Overview
 
-In the previous class, we performed web application fingerprinting. This is a useful intelligence gathering operation during the stages of ethical hacking.
-
-Since we know a little Python, we can create our own web application fingerprinting tool. Today, you will finish development of your web application tool.
+Now that you've studied and practiced XSS, it's time to explore Python's capabilities in helping us automate the detection of vulnerabilities like XSS.
 
 ## Resources
 
-- [Python for Web application security professionals](https://resources.infosecinstitute.com/python-for-web-app-security-pros/)
-- [Use Python to automate SQL Injection!](https://cyberpersons.com/2016/11/08/use-python-automate-sql-injection/)
+- [How to Build a XSS Vulnerability Scanner in Python](https://www.thepythoncode.com/article/make-a-xss-vulnerability-scanner-in-python){:target="_blank"}
 
 ## Demonstration
 

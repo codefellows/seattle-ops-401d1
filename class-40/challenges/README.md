@@ -1,12 +1,15 @@
-# Ops Challenge: Pentesting with CORE Impact
+# Ops Challenge: Vulnerability Scanning with Nessus
 
 ## Overview
 
-Penetration testers can take advantage of tools like CORE Impact. Today you will use CORE Impact to evaluate security configurations of your target system.
+Tenable's Nessus scanner tool is a big name in security. A highly scalable, enterprise-ready solution, Nessus is capable of highly sophisticated scanning.
+
+Today you'll scan a new target system with Nessus.
 
 ## Resources
 
-- [Core Security](https://www.coresecurity.com/products/core-impact)
+- [Nessus: Configure and Scan](https://www.securityloops.com/nessus-vulnerability-scanner-tutorial-part-2-configure-and-scan/)
+- [Video: Nessus advanced scan. Overview of CVE, CWE, CVSS and Windows catalog update](https://www.youtube.com/watch?v=L6KiD0aGFQU&ab_channel=MainakshSingh)
 
 ## Demonstration
 

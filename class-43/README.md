@@ -1,8 +1,8 @@
-# Sniffing and Evasion 
+# Lab: Traffic Sniffing with Ettercap 
 
 ## Overview
 
-A number of techniques are used by cyber attackers to capture data while remaining undetected. Today you will perform a man-in-the-middle (MITM) attack.
+A number of techniques are used by cyber attackers to capture data while remaining undetected. 
 
 ## Learning Objectives
 

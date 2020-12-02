@@ -1,4 +1,4 @@
-# Reconnaissance
+# OSINT with Maltego
 
 ## Overview
 

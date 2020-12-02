@@ -1,8 +1,10 @@
-# Scanning and Enumeration with Nmap
+# Lab: Pass the Hash with Mimikatz
 
 ## Overview
 
-The second stage of penetration testing involves collecting user names, machine names, network resources, and other services present on your target. Today you will use Nmap to perform enumeration against a target.
+Mimikatz is a common attack tool that leverages Powershell to perform nefarious operations such as extracting user passwords.
+
+Today you will perform a "pass the hash" attack using Mimikatz.
 
 ## Learning Objectives
 
@@ -10,13 +12,12 @@ The second stage of penetration testing involves collecting user names, machine 
 
 #### Describe and Define
 
-- Enumeration
-- Enumeration techniques
-- Enumeration targets
+- Mimikatz
+- Powershell Empire
 
 #### Execute
 
-- Utilize Nmap to perform enumeration as part of the pentesting process.
+- Perform a "pass the hash" operation with Mimikatz
 
 ## Today's Outline
 
@@ -24,7 +25,10 @@ The second stage of penetration testing involves collecting user names, machine 
 - Review: Class 41 Lab
 - Review: Class 41 Ops Challenge
 - Demo: Class 42 Ops Challenge
-- Discussion: Scanning and Enumeration with Nmap
-- Lecture: Scanning and Enumeration with Nmap
-- Demo: Scanning and Enumeration with Nmap
+- Discussion: Pass the Hash with Mimikatz
+- Lecture: Pass the Hash with Mimikatz
+- Demo: Pass the Hash with Mimikatz
+
+## Resources
+
 

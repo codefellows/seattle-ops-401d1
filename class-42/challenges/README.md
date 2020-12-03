@@ -2,13 +2,9 @@
 
 ## Overview
 
-Many pentesting tools involve the use of Python for its code base.
-
-Today you will use the Python library Beautiful Soup to detect and/or exploit SQL injection vulnerabilities.
+Nmap is a highly popular security tool used for enumeration tasks. By importing Nmap into Python we can begin to develop our own enumeration/port scanner tool.
 
 ## Resources
-
-- [How to Build a SQL Injection Scanner in Python](https://www.thepythoncode.com/article/sql-injection-vulnerability-detector-in-python)
 
 ## Demonstration
 

@@ -11,15 +11,15 @@ The purpose of this script is to determine if a target port is open or closed, u
 
 import socket
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sockmod = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 timeout = # TODO: Set a timeout value here.
-s.settimeout(timeout)
+sockmod.settimeout(timeout)
 
 hostip = # TODO: Collect a host IP from the user.
 portno = # TODO: Collect a port number from the user, then convert it to an integer data type.
 
 def portScanner(portno):
-    if s.FUNCTION((hostip, portno)): # TODO: Replace "FUNCTION" with the appropriate socket.function call as found in the [socket docs](https://docs.python.org/3/library/socket.html)
+    if sockmod.FUNCTION((hostip, portno)): # TODO: Replace "FUNCTION" with the appropriate socket.function call as found in the [socket docs](https://docs.python.org/3/library/socket.html)
         print("Port closed")
     else:
         print("Port open")

@@ -1,4 +1,4 @@
-# Career Development Workshop 8, Final Project Kickoff
+# Pentest Practice 2 of 2, Final Project Kickoff
 
 Today's class will focus on career development. After the workshop, your instructor will introduce the final project.
 

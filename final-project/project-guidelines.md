@@ -108,7 +108,7 @@ Technical merit of the project overall is evaluated according the requirements.
 
 ## Scenario
 
-Your team is a small security firm that accepted a new contract to help ABC Corp. test its infrastructure and implement more sophisticated security systems. This is a "purple team" engagement. You have been tasked with completing a penetration test, composing relevant deliverables, and presenting the findings to your client. You will also be implementing threat detection and advance malware analysis tools in the environment as part of boosting the client's defenses.
+Your team is a small security firm that accepted a new contract to help Vintage Upholstery & Leather Nationwide Corporation test its infrastructure and implement more sophisticated security systems. This is a "purple team" engagement. You have been tasked with completing a penetration test, composing relevant deliverables, and presenting the findings to your client. You will also be implementing threat detection and advance malware analysis tools in the environment as part of boosting the client's defenses.
 
 > If you're applying for an offensive security role, you'll commonly be asked to perform a full pentest and compose a report for the hiring company. This project is your chance to get ahead of the curve and get yourself some valuable practice in advance of your job search!
 
@@ -118,7 +118,7 @@ Refer to the rules of engagement to dictate the behaviors and scope of the penet
 
 ### Staging
 
-Prepare your Kali Linux VM to connect with the target network, ABC Corp's web app, using OpenVPN.
+Prepare your Kali Linux VM to connect with the target network using OpenVPN.
 - Install OpenVPN.
 - Obtain a .ovpn file from your instructor. Treat this file like a password; do not share with others.
 - Establish connectivity to the web app using OpenVPN. Contact your TA or instructor if you have any problems with this step.
@@ -135,7 +135,7 @@ The first two days of project week will be devoted to the penetration test, star
 
 ### Project Week Part 2
 
-In the final segment of the project week, your team will gain access to ABC Corp's systems and implement defensive systems in the environment.
+In the final segment of the project week, your team will gain access to Vintage Upholstery & Leather Nationwide Corporation's systems and implement defensive systems in the environment.
 - At least one SIEM solution.
   - The implemented SIEM should successfully aggregate logs from various servers and/or endpoints to facililate the demonstration of your sample threat.
 - At least one threat detection system.
